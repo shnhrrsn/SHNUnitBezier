@@ -9,4 +9,5 @@ Pod::Spec.new do |s|
 
 	s.source        = { :git => "https://github.com/shnhrrsn/SHNUnitBezier.git", :tag => "1.0.0" }
 	s.source_files  = "*.{h,c}"
+	s.requires_arc  = false
 end
