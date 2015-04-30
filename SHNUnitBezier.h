@@ -16,12 +16,12 @@ typedef struct {
 	double ay;
 } SHNUnitBezier;
 
-const SHNUnitBezier SHNUnitBezierLinear;
+extern const SHNUnitBezier SHNUnitBezierLinear;
 
-const SHNUnitBezier SHNUnitBezierEase;
-const SHNUnitBezier SHNUnitBezierEaseIn;
-const SHNUnitBezier SHNUnitBezierEaseOut;
-const SHNUnitBezier SHNUnitBezierEaseInOut;
+extern const SHNUnitBezier SHNUnitBezierEase;
+extern const SHNUnitBezier SHNUnitBezierEaseIn;
+extern const SHNUnitBezier SHNUnitBezierEaseOut;
+extern const SHNUnitBezier SHNUnitBezierEaseInOut;
 
 /**
  * Create a unit bezier with polynomial coefficients pre-calculated based on the control points
